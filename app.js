@@ -17,12 +17,12 @@ app.get('/', (req, res) => {
         }
     }
     // while loop
-    let tEst = 5
+    let tEst = 4
     while(tEst<5) {
-        consoe.log(tEst)
         tEst--
+        consoe.log('tEst:', tEst)
     }
-    res.send('Hello World!')
+
 })
 
 app.listen(PORT, () => {
