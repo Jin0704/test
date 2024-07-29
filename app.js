@@ -10,6 +10,11 @@ app.get('/', (req, res) => {
     // for 100 loops
     for (let i = 0; i < 100; i++) {
         console.log('Hello World')
+        // if (i === 50)  break
+        if(i === 50) {
+            res.send('Hello World!')
+            return
+        }
     }
     res.send('Hello World!')
 })
