@@ -16,13 +16,8 @@ app.get('/', (req, res) => {
             return
         }
     }
-    // while loop
-    let tEst = 4
-    while(tEst<5) {
-        tEst--
-        consoe.log('tEst:', tEst)
-    }
-
+    // test code review
+    consoe.log('End of loop')
 })
 
 app.listen(PORT, () => {
