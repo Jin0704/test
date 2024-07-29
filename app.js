@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
             return
         }
     }
-    // give me an error
+    // while loop
     let tEst = 5
     while(tEst<5) {
         consoe.log(tEst)
