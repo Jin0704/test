@@ -16,6 +16,12 @@ app.get('/', (req, res) => {
             return
         }
     }
+    // give me an error
+    let tEst = 5
+    while(tEst<5) {
+        console.log(tEst)
+        tEst--
+    }
     res.send('Hello World!')
 })
 
